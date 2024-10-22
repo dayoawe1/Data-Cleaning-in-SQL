@@ -12,10 +12,11 @@ FROM layoffs;
 -- 3. Null values or blank values
 
 -- 4. Remove any columns or rows that are unneccessary
-
+-------------------------------------------------------------------------------------------------
 CREATE TABLE layoffs_staging
-LIKE layoffs;
 
+LIKE layoffs;
+-------------------------------------------------------------------------------------------------
 SELECT *
 FROM layoffs_staging;
 
